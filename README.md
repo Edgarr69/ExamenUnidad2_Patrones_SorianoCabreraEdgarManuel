@@ -6,28 +6,30 @@ Este proyecto simula un sistema de control marítimo donde un centro principal c
 
 # Ejecución
 
-Requisitos
+Requisitos previos
 
-Tener instalado .NET SDK o C# Compiler (csc).
+Descargar .NET 9.0 SDK desde https://dotnet.microsoft.com/download
 
-Contar con Git para clonar el repositorio.
+Descargar Git desde https://git-scm.com/downloads
 
-Cómo ejecutar el proyecto
-1. Clonar el repositorio
+Paso 1: Clonar el repositorio
+
+Abre Visual Studio Code o la terminal y ejecuta:
+
 git clone https://github.com/Edgarr69/ExamenUnidad2_Patrones_SorianoCabreraEdgarManuel.git
 
-2. Entrar al directorio del proyecto
+Paso 2: Entrar a la carpeta del proyecto
 cd ExamenUnidad2_Patrones_SorianoCabreraEdgarManuel
 
-3. Ejecutar el programa
+Paso 3: Compilar y ejecutar el programa
 
-Si es un archivo .cs:
+Si el proyecto es un archivo .cs:
 
 csc Program.cs
 Program.exe
 
-O si es un proyecto de .NET:
+
+O si el proyecto es de .NET:
 
 dotnet build
-
 dotnet run
