@@ -16,7 +16,7 @@ Paso 1: Clonar el repositorio
 
 Abre Visual Studio Code o la terminal y ejecuta:
 
-git clone https://github.com/Edgarr69/ExamenUnidad2_Patrones_SorianoCabreraEdgarManuel.git
+git clone https://github.com/Edgarr69/ExamenUnidad2_Patrones_SorianoCabreraEdgarManuel
 
 Paso 2: Entrar a la carpeta del proyecto
 cd ExamenUnidad2_Patrones_SorianoCabreraEdgarManuel
