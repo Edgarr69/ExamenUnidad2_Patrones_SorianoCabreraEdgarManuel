@@ -43,14 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Barco.cs" />
-    <Compile Include="CentroControlMaritimo.cs" />
-    <Compile Include="PoolBarcos.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Barco.cs" />
+    <Compile Include="src\CentroControlMaritimo.cs" />
+    <Compile Include="src\PoolBarcos.cs" />
+    <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="src\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="doc\" />
+    <Folder Include="uml\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
